@@ -1,0 +1,134 @@
+
+body{
+    background-image: url('http://localhost/cblg/assets/img/patterns/8.png');
+    position: relative;
+}
+.table-container{
+    overflow: auto;
+}
+div.footer{
+    background-color: #fff;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+.content{
+    width: 80%;
+
+    font-size: 17px;    
+    /* position: relative; */
+    float: right;
+    display: inline-block;
+}
+/* .container-gue{
+    width: 80%;
+    margin: auto;
+
+} */
+#body-row {
+    margin-left:0;
+    margin-right:0;
+}
+#sidebar-container {
+    min-height: 100vh;   
+    background-color: #333;
+    padding: 0;
+}
+
+.sidebar-expanded {
+    width: 20%;
+}
+.sidebar-collapsed {
+    width: 60px;
+}
+
+#sidebar-container .list-group a {
+    height: 50px;
+    color: white;
+}
+
+#sidebar-container .list-group .sidebar-submenu a {
+    height: 45px;
+    padding-left: 30px;
+    float: left;
+}
+.sidebar-submenu {
+    font-size: 0.9rem;
+}
+
+.sidebar-separator-title {
+    background-color: #333;
+    height: 35px;
+}
+.sidebar-separator {
+    background-color: #333;
+    height: 25px;
+}
+.logo-separator {
+    background-color: #333;    
+    height: 60px;
+}
+
+#sidebar-container .list-group .list-group-item[aria-expanded="false"] .submenu-icon::after {
+  content: " \f0d7";
+  font-family: FontAwesome;
+  display: inline;
+  text-align: right;
+  padding-left: 10px;
+}
+#sidebar-container .list-group .list-group-item[aria-expanded="true"] .submenu-icon::after {
+  content: " \f0da";
+  font-family: FontAwesome;
+  display: inline;
+  text-align: right;
+  padding-left: 10px;
+}
+.gambarArtikel img{
+    width: 200px;
+}
+.searchInput{
+    width: 5.5cm;
+    /* position: absolute; */
+    /* right: 20px; */
+}
+.clear{
+    clear: both;
+}
+@media screen and (max-width:680px){
+    .content{
+        width: 100%;
+    }
+}
+div.theme1, div.theme2, div.theme3, div.theme4, div.theme5, div.theme6, div.theme7, div.theme8{
+    /* width: 130px; */
+    height: 150px;
+    background-repeat: repeat;
+    background-size: inherit;
+    overflow: hidden;
+    
+}
+div.theme1{
+    background-image: url('http://localhost/cblg/assets/img/patterns/1.png');
+}
+div.theme2{
+    background-image: url('http://localhost/cblg/assets/img/patterns/2.png');
+}
+div.theme3{
+    background-image: url('http://localhost/cblg/assets/img/patterns/3.png');
+}
+div.theme4{
+    background-image: url('http://localhost/cblg/assets/img/patterns/4.png');
+}
+div.theme5{
+    background-image: url('http://localhost/cblg/assets/img/patterns/5.png');
+}
+div.theme6{
+    background-image: url('http://localhost/cblg/assets/img/patterns/6.png');
+}
+div.theme7{
+    background-image: url('http://localhost/cblg/assets/img/patterns/7.png');
+}
+div.theme8{
+    background-image: url('http://localhost/cblg/assets/img/patterns/8.png');
+}
